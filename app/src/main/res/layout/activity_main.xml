@@ -39,8 +39,15 @@
 
     </FrameLayout>
 
+    <WebView
+        android:id="@+id/wv_cv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fl_header"
+        android:layout_above="@id/btn_hubungi"/>
+
     <Button
-        android:id="@+id/btnhubungi"
+        android:id="@+id/btn_hubungi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hubungi Saya"
